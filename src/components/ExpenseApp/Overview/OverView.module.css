@@ -1,0 +1,42 @@
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.resultSection {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  background-color: #0d1d2c;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+}
+.amount{
+    display: block;
+}
+.income{
+    color: green;
+}
+.expense{
+    color: red;
+}
+.amount_price{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+.cancel{
+    background-color: red;
+    border: 1px solid red;
+}

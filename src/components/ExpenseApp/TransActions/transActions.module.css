@@ -1,0 +1,31 @@
+.container{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.transAction{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #e1e1e1;
+    border-radius: 5px 0 0 5px;
+    padding: 7px;
+    background-color: #eeecec;
+}
+.expense {
+  border-right: 3px solid red;
+}
+.income {
+  border-right: 3px solid green;
+}
+.search{
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+}
+.search:focus{
+  border: 2px solid #6d28d9;
+}

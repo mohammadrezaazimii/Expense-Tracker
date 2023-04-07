@@ -1,0 +1,29 @@
+.form > input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px !important;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+.form > input:focus {
+  border: 2px solid #6d28d9;
+}
+.btn {
+  width: 50%;
+  height: 40px;
+  display: block;
+  margin: 0 auto !important;
+  background-color: #0d1d2c;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+}
+.radio_btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.radio_btn_container {
+  margin: 10px 0 !important;
+}
